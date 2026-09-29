@@ -1,0 +1,14 @@
+{
+  "name": "what-to-eat-today",
+  "version": "1.0.0",
+  "private": true,
+  "description": "今天吃什么 · 随机决定器（单文件网页，转盘决定 + 可增删清单 + localStorage 持久化）",
+  "scripts": {
+    "test": "node tests/dom.test.js",
+    "start": "python -m http.server 8080"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0"
+  },
+  "license": "MIT"
+}
